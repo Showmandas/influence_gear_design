@@ -118,3 +118,136 @@ nav ul li a {
 
 /* .collection style 
  */
+
+ .collection{
+    margin-top: 200px;
+    width: 1047px;
+height: 1662px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+margin-bottom: 200px;
+ }
+ .card{
+    height: 465px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 4px #ddd;
+    position:relative;
+ }
+ .card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+ }
+ .card-info h1{
+    font-weight: 500;
+font-size: 28px;
+ }
+ .card-info h3{
+    font-weight: 400;
+font-size: 24px;
+color: rgba(0, 0, 0, 0.87);
+ }
+ .card-info p{
+    font-weight: 700;
+font-size: 14px;
+color: #787885;
+ }
+
+ .card-img img{
+    object-fit: cover;
+ }
+ .stars{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+ }
+ .stars .fa-star{
+    color: orange;
+    
+ }
+ .stars p{
+  margin-left: 0;  
+color:#5E6366;
+font-weight: 700;
+font-size: 16px;    
+ }
+
+ #seemore{
+    position: absolute;
+    top: 110%;
+    left: 70%;
+    transform: translate(-70%,-110%);
+    text-align: right;
+    color: var(--btn-color);
+    text-decoration: none;
+ }
+
+ .feature-section{
+    width: 1110px;
+height: 270px;
+margin: 0 auto;
+display: flex;
+gap: 96px;
+margin-bottom: 150px;
+ }
+ .feature-product{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .feature-product h1{
+    font-weight: 700;
+font-size: 38px;
+color: #0A0826;
+ }
+ .feature-product p{
+    font-weight: 700;
+font-size: 16px;
+color: #6C6C6C;
+ }
+ .feature-product button{
+    padding: 0.6rem 2rem;
+  width: 160px;
+  height: 44px;
+  background-color: var(--btn-color);
+  border: 0;
+  color: #fff;
+  border-radius: 2rem;
+ }
+
+ /* footer style  */
+ footer{
+    height: 200px;
+    background-color: #0A0826;
+ }
+ .foot-div{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+ }
+ .social-icon{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .social-icon i{
+    padding: 10px;
+ }
+ .social-icon a{
+    color: #fff;
+    text-decoration: none;
+ }
