@@ -99,3 +99,22 @@ nav ul li a {
   width: 475px;
   height: 475px;
 }
+
+/* business section style  */
+.business-section{
+    width: 60%;
+    height: 70px;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    border: 1px solid #ddd;
+}
+
+.business-section img{
+    width: 80px;
+    padding-left: 3.4rem;
+}
+
+/* .collection style 
+ */
